@@ -1,8 +1,4 @@
 //Adding comment
-
-
-
-
 public class TestUtils{
     public List<Account> getAccounts(Integer cnt){
         List<Acccount> lstAccounts = new List<Account>();
@@ -10,5 +6,10 @@ public class TestUtils{
             lstAccounts.add(new Account());
         }
         return lstAccounts;
+    }
+
+    public void doNothing()
+    {
+	//This method does nothing
     }
 }
